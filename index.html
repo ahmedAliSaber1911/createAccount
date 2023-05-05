@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CreateAccount</title>
+</head>
+
+<body>
+    <main class="container">
+        <header>Create New Account</header>
+        <form class="content">
+            <div class="field">
+                <label for="username">Username</label>
+                <div>
+                    <input type="text"  id="username" minlength="4" required placeholder="Enter Your Name">
+                    <p>Please enter valid username</p>
+                </div>
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <div>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                    <p>Please enter valid email</p>
+                </div>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <div>
+                    <input type="password" placeholder="Enter Your Password" id="password">
+                    <p>Please enter valid password</p>
+                </div>
+            </div>
+            <div class="field">
+                <label for="confirm">Confirm Password</label>
+                <div>
+                    <input type="password" id="confirm" placeholder="Confirm Your Password">
+                    <p>The password doesn't match</p>
+                </div>
+            </div>
+        </form>
+        <button >Create</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
